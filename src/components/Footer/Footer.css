@@ -2,6 +2,10 @@
     padding:4rem 4rem;
 }
 
+.footer-links-div .email-link p{
+    font-size: 15px;
+}
+
 .footer{
     background-color: rgb(53, 57, 53);
 }
@@ -87,12 +91,20 @@ hr{
         font-size: 44px;
         line-height: 50px;
     }
+
+    .footer-links-div .email-link p{
+        font-size: 11px;
+    }
 }
 
 @media screen and (max-width:550){
     .footer-heading h1{
         font-size: 34px;
         line-height: 42px;
+    }
+
+    .footer-links-div .email-link p{
+        font-size: 10px;
     }
 
     .footer-btn p{
@@ -110,5 +122,9 @@ hr{
     .footer-heading h1{
         font-size: 27px;
         line-height: 38px;
+    }
+
+    .footer-links-div .email-link p{
+        font-size: 9px;
     }
 }
