@@ -5,7 +5,7 @@ import TypingAnimation from "../components/TypingAnimation/TypingAnimation";
 
 
 const Home = () => {
-  const content = "The Name is Jake Brown. A passionate Developer that wants to help others achieve a better quality of life based in Greensboro, NC";
+  const content = "The Name is Jake. A passionate Developer that wants to help others achieve a better quality of life based in Greensboro, NC";
 
  
 

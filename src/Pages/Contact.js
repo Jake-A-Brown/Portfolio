@@ -11,28 +11,31 @@ const Contact = () => {
   useEffect(() => {
     if (window.google) {
       const map = new window.google.maps.Map(mapRef.current, {
-        center: { lat: 36.0726, lng: -79.7920 },
+        center: { lat: 36.0726, lng: -79.792 },
         zoom: 12,
       });
-  
+
       new window.google.maps.Marker({
-        position: { lat: 36.0726, lng: -79.7920 },
+        position: { lat: 36.0726, lng: -79.792 },
         map,
         title: "My Location",
       });
     }
   }, []);
-  
 
   return (
     <div className="contact-div">
-      <h1>Contact</h1>
-      <h2>Collaborate with me!</h2>
       <div className="contact-info">
         <div className="contact-item">
+          <h1>Contact</h1>
+          <h2>Collaborate with me!</h2>
           <h3>Email</h3>
           <p className="contact-email">
-            <FontAwesomeIcon className="email-icon" icon={faEnvelope} size="2x" />
+            <FontAwesomeIcon
+              className="email-icon"
+              icon={faEnvelope}
+              size="2x"
+            />
             <Emaillink />
           </p>
         </div>
@@ -57,5 +60,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
-
