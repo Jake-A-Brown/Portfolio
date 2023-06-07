@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: center;
     width: 100%;
     padding: 0;
     background-color: #EEEEEE;
@@ -17,12 +17,18 @@
   }
   
   .map-container {
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
     height: 300px;
-    margin-top: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
   }
   
   .contact-item {
+    margin-bottom: 10px;
+  }
+
+  .contact-item h1, h2, h3 {
     margin-bottom: 10px;
   }
   

@@ -27,8 +27,8 @@ const Contact = () => {
     <div className="contact-div">
       <div className="contact-info">
         <div className="contact-item">
-          <h1>Contact</h1>
-          <h2>Collaborate with me!</h2>
+          <h1>Dont be shy!</h1>
+          <h2>Lets Collaborate!</h2>
           <h3>Email</h3>
           <p className="contact-email">
             <FontAwesomeIcon
