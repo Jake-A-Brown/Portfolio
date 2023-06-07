@@ -1,5 +1,5 @@
 import React from "react";
-import ProfilePic from './profile-picture-2.JPG';
+import ProfilePic from './mb.JPG';
 import './Profilepicture.css';
 
 const Profilepicture=()=>{
