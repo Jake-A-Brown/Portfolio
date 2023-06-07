@@ -1,0 +1,10 @@
+.container-div {
+    display: flex;
+    width:100%;
+    margin: 0;
+    background-color: antiquewhite;
+  }
+  
+.main-div{
+    background-color:grey;
+  }

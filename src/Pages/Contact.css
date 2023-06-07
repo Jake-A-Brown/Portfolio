@@ -1,0 +1,28 @@
+.contact-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    background-color: #EEEEEE;
+    color: black;
+}
+
+.contact-email{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.email-icon {
+    margin-right: 15px;
+  }
+
+  .map-container {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+  }
+
+  .contact-item {
+    margin-bottom: 10px;
+  }

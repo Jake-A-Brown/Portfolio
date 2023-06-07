@@ -1,0 +1,27 @@
+.resume-div{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width: 100%;
+    background-color:#EEEEEE;
+    color:charcoal;
+    padding: 0;
+    text-overflow: ellipsis;
+    height: auto;
+}
+
+.resume-email-link{
+    width: auto;
+} 
+
+
+/*
+responsiveness added here
+*/
+@media screen and (max-width: 768px){
+    
+    .resume-div{
+        font-size:x-small;
+    }
+    
+}

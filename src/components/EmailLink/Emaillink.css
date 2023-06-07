@@ -1,0 +1,11 @@
+.email-link{
+    color: goldenrod;
+}
+
+.email{
+    color: blue;
+}
+
+.email-link:hover{
+    transform: scale(1.1);
+}

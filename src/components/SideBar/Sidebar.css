@@ -1,0 +1,11 @@
+.sidebar-div{
+    background-color:rgb(118, 193, 225);
+    opacity: .5;
+    display:flex;
+    height: flex-grow;
+    width: 10%;
+    align-items: flex-start;
+    /*aligns each div inside this div*/
+    flex-direction: column;
+    margin:0px 0px 0px 0px;
+}

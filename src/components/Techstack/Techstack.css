@@ -1,0 +1,46 @@
+.techstack-div {
+    display: flex;
+    color: aquamarine;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .java-logo,
+  .html5-logo,
+  .react-logo,
+  .javascript-logo,
+  .nodejs-logo,
+  .css-logo,
+  .ts-logo,
+  .git-logo,
+  .csharp-logo {
+    margin-right: 10px;
+    width: 3em;
+    height: 3em;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .techstack-div {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .java-logo,
+    .html5-logo,
+    .react-logo,
+    .javascript-logo,
+    .nodejs-logo,
+    .css-logo,
+    .ts-logo,
+    .git-logo,
+    .csharp-logo {
+      margin-right: 5px;
+      margin-bottom: 5px;
+    }
+  }
+
+  
