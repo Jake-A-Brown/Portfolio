@@ -29,6 +29,7 @@ const About = () =>{
           <Aboutpicture />
         </div>
       </div>
+      <div></div>
       </div>
     );
   };
