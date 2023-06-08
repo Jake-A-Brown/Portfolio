@@ -1,9 +1,19 @@
-.projects-div{
+.projects-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    padding: 0;
-    background-color:#EEEEEE;
-    color:black;
-}
+    padding: 20px;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .project-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+  

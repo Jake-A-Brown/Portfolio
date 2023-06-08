@@ -2,9 +2,11 @@
     display: flex;
     width:100%;
     margin: 0;
+    justify-content: center;
     background-color: antiquewhite;
   }
   
 .main-div{
     background-color:grey;
+    flex-grow: 1;
   }

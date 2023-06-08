@@ -14,12 +14,8 @@
   
   .about-picture::after {
     content: "";
-    display: block;
+    display: flex;
     position: absolute;
-    top: -10px;
-    left: -10px;
-    right: -10px;
-    bottom: -10px;
     border: 10px solid;
     border-image: linear-gradient(to bottom right, #FFDDC1, #FFA34F, #FFD8A8, #FFC881) 1;
     border-radius: inherit;
