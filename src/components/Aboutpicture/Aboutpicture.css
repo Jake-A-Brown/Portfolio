@@ -6,10 +6,58 @@
     max-width: 350px;
     height: auto;
     margin: 0 auto;
+    border: 10px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    animation: colorChange 5s infinite;
   }
+  
+  .about-picture::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    border: 10px solid;
+    border-image: linear-gradient(to bottom right, #FFDDC1, #FFA34F, #FFD8A8, #FFC881) 1;
+    border-radius: inherit;
+    z-index: -1;
+  }
+  
+  @keyframes colorChange {
+    0% {
+      border-color: #acd5e7; /* Light Blue */
+    }
+    25% {
+      border-color: #94a8bb; /* Steel Blue */
+    }
+    50% {
+      border-color: #758b9d; /* Dark Blue */
+    }
+    75% {
+      border-color: #90a8bf; /* Midnight Blue */
+    }
+    100% {
+      border-color: #abcdde; /* Navy Blue */
+    }
+  }
+  
   
   .about-picture img {
     max-width: 100%;
     height: auto;
+    border-radius: 1px; /* Adjust the border-radius value as desired */
+  }
+  
+  
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .about-picture {
+      max-width: 50%;
+      padding: 0px;
+    }
   }
   

@@ -66,6 +66,7 @@
     .about-right-section img {
       max-width: 70%;
       max-height: 150px; /* Adjust the desired height */
+      flex: 1;
     }
   
     .about-left-section p {
