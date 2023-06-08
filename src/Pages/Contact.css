@@ -5,8 +5,8 @@
     align-items: center;
     width: 100%;
     padding: 5px;
-    padding-bottom: 150px;
-    padding-top: 150px;
+    padding-bottom: 50px;
+    padding-top: 50px;
     background-color: #EEEEEE;
     color: black;
   }
@@ -36,6 +36,11 @@
   
   /* Media Query for smaller screens */
 @media (max-width: 768px) {
+
+  .contact-div{
+    padding-bottom: 150px;
+    padding-top: 150px;
+  }
  
   .contact-item h1,
   .contact-item h2,

@@ -5,23 +5,23 @@ import TypingAnimation from "../components/TypingAnimation/TypingAnimation";
 
 
 const Home = () => {
-  const content = "The Name is Jake. A passionate Developer that wants to help others achieve a better quality of life based in Greensboro, NC";
+  const content = "The Name is Jake. A passionate Developer that enjoys helping others achieve a better quality of life. Based in Greensboro, NC";
 
  
 
 
   return (
     <div className="home-div">
-      <div className="flex-container">
-        <div className="left-section">
+      <div className="home-flex-container">
+        <div className="home-left-section">
           <h1>Full-Stack Developer</h1>
           <TypingAnimation text={content} />
         </div>
-        <div className="right-section">
+        <div className="home-right-section">
           <Profilepicture />
         </div>
       </div>
-      <div className="techstack-section">
+      <div className="home-techstack-section">
         <Techstack/>
       </div>
     </div>

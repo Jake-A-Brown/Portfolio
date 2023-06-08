@@ -5,46 +5,41 @@
         flex-grow: 1;
       }
       
-      .flex-container {
+      .home-flex-container {
         display: flex;
         margin-top: 20px;
         flex-wrap: wrap;
       }
       
-      .left-section {
+      .home-left-section {
         padding-left: 50px;
         flex: 1;
         margin-right: 20px;
         width: 100%;
         max-width: 35%;
         text-align: left;
+        width: 35%;
       }
 
-      .left-section h1{
+      .home-left-section h1{
         padding-top: 40px;
       }
 
-      .left-section p{
+      .home-left-section p{
         padding-top: 10px;
       }
       
-      .right-section {
+      .home-right-section {
         flex: 1;
         width: 100%;
-
       }
       
-      .techstack-section {
+      .home-techstack-section {
         margin-top: 20px;
         margin-bottom: 20px;
       }
 
-      .left-section{
-        width: 35%;
-        text-align: left;
-      }
-
-      .left-section p {
+      .home-left-section p {
         font-size: 16px;
         white-space: wrap;
         overflow: hidden;
@@ -62,13 +57,13 @@
 
       /* Responsive adjustments */
 @media (max-width: 768px) {
-  .left-section {
+  .home-left-section {
     max-width: 100%;
     padding-left: 0;
     margin-right: 0;
   }
 
-  .right-section .profile-picture{
+  .home-right-section .profile-picture{
     max-width: 70%;
     max-height: 70%;
   }
@@ -76,19 +71,19 @@
 }
 
 @media (max-width: 480px) {
-  .left-section {
+  .home-left-section {
     max-width: 100%;
     padding-left: 0;
     margin-right: 0;
     text-align: center;
   }
 
-  .left-section h1 {
+  .home-left-section h1 {
     padding-top: 20px;
     font-size: 11px;
   }
 
-  .left-section p {
+  .home-left-section p {
     padding-top: 5px;
     font-size: 10px;
     padding-left: 7px;

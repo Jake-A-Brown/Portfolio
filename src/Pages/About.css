@@ -1,9 +1,46 @@
 .about-div{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 100%;
-    padding: 0;
-    background-color: #EEEEEE;
-    color: black;
+    background-color:#EEEEEE;
+    flex-grow: 1;
 }
+
+.about-flex-container{
+    display: flex;
+    margin-top: 60px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+.about-left-section{
+    padding-left: 50px;
+    flex: 1;
+    margin-right: 20px;
+    width: 100%;
+    max-width: 45%;
+    text-align: left;
+    width: 35%;
+}
+
+.about-right-section{
+    flex: 1;
+    width: 100%;
+    margin-left: 100px;
+}
+
+.about-left-section p{
+    font-size: 16px;
+    white-space: wrap;
+    overflow: hidden;
+    animation: typing 3s steps(40, end);
+}
+
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
