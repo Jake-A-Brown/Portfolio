@@ -5,7 +5,12 @@ import TypingAnimation from "../components/TypingAnimation/TypingAnimation";
 
 
 const Home = () => {
-  const content = "The Name is Jake. A passionate Developer that enjoys helping others achieve a better quality of life. Based in Greensboro, NC";
+  const content = "The name is Jake, and I'm a passionate developer dedicated to making a positive "+
+  "impact and enhancing lives. Based in Greensboro, NC, I thrive on creating innovative solutions "+
+  "that address real-world challenges. With a deep-rooted passion for development, I approach every "+
+  "project with enthusiasm and a genuine desire to make a difference. Collaborating with individuals "+
+  "and organizations, I aim to bring ideas to life and shape a brighter future through technology. "+
+  "Together, let's create something remarkable and contribute to a better quality of life for all.";
 
  
 

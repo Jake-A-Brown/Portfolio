@@ -1,13 +1,15 @@
-.about-picture{
+.about-picture {
     display: flex;
-    align-content: center;
     align-items: center;
     justify-content: center;
-    width: 350px;
-    height: 450px;
-}
-
-.about-picture img {
     width: 100%;
+    max-width: 350px;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  .about-picture img {
+    max-width: 100%;
     height: auto;
   }
+  

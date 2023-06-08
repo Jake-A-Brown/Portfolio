@@ -44,7 +44,7 @@ const Contact = () => {
           <p>678-521-8882</p>
         </div>
         <div className="contact-item">
-          <h3>Address</h3>
+          <h3>Location</h3>
           <p>Greensboro, NC</p>
         </div>
         <div className="contact-item">

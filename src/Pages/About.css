@@ -1,46 +1,98 @@
-.about-div{
+.about-div {
     display: flex;
     flex-direction: column;
-    background-color:#EEEEEE;
+    background-color: #EEEEEE;
     flex-grow: 1;
-}
+  }
 
-.about-flex-container{
+  .about-paragraph {
+  }
+  
+  .about-flex-container {
     display: flex;
-    margin-top: 60px;
-    flex-wrap: wrap;
-    margin-bottom: 30px;
     justify-content: space-between;
-}
-
-.about-left-section{
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+  
+  .about-left-section {
     padding-left: 50px;
     flex: 1;
     margin-right: 20px;
     width: 100%;
     max-width: 45%;
     text-align: left;
-    width: 35%;
-}
-
-.about-right-section{
+    font-family: 'Vollkorn', serif;
+  }
+  
+  .about-right-section {
     flex: 1;
     width: 100%;
-    margin-left: 100px;
-}
-
-.about-left-section p{
+  }
+  
+  .about-left-section p {
     font-size: 16px;
     white-space: wrap;
     overflow: hidden;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333333;
+    text-align: justify;
+    margin-bottom: 20px;
     animation: typing 3s steps(40, end);
-}
-
-@keyframes typing {
-    from {
-      width: 0;
+  }
+  
+  .about-right-section img {
+    max-width: 100%;
+    max-height: 200px; /* Adjust the desired height */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .about-flex-container {
+      flex-direction: column;
     }
-    to {
-      width: 100%;
+  
+    .about-left-section {
+      padding-left: 0;
+      margin-right: 0;
+      text-align: center;
+    }
+  
+    .about-right-section {
+      margin-top: 20px;
+    }
+  
+    .about-right-section img {
+      max-width: 70%;
+      max-height: 150px; /* Adjust the desired height */
+    }
+  
+    .about-left-section p {
+      font-size: 14px; /* Adjust the desired font size */
     }
   }
+  
+  @media (max-width: 480px) {
+    .about-left-section {
+      max-width: 100%;
+      text-align: center;
+    }
+  
+    .about-left-section h1 {
+      padding-top: 20px;
+      font-size: 16px; /* Adjust the desired font size */
+    }
+  
+    .about-left-section p {
+      padding-top: 5px;
+      font-size: 12px; /* Adjust the desired font size */
+      padding-left: 7px;
+    }
+  
+    .about-right-section img {
+      max-width: 50%;
+      max-height: 100px; /* Adjust the desired height */
+    }
+  }
+  
