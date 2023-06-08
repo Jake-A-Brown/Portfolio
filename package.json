@@ -25,7 +25,7 @@
     "eject": "react-scripts eject"
   },
 
-  "homepage": "https://jake-a-brown.github.io/Portfolio",
+  "homepage": "https://jake-a-brown.github.io/Portfolio/home",
 
   "eslintConfig": {
     "extends": [
