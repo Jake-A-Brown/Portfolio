@@ -14,7 +14,7 @@ const Emaillink = () => {
 
   return (
     <Link className='email-link' to="#" onClick={handleClick}>
-      <p>JakeBrown@jbrownjake.com</p>
+      <div>JakeBrown@jbrownjake.com</div>
     </Link>
   );
 };

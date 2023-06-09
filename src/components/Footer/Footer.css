@@ -2,7 +2,7 @@
     padding:4rem 4rem;
 }
 
-.footer-links-div .email-link p{
+.footer-links-div .email-link div{
     font-size: 15px;
 }
 
@@ -33,6 +33,11 @@
     justify-content: flex-start;
     flex-direction: column;
     color: white;
+}
+
+.footer-links-div p{
+    text-decoration: underline;
+    color:rgb(239, 219, 64);
 }
 
 a{
@@ -92,7 +97,7 @@ hr{
         line-height: 50px;
     }
 
-    .footer-links-div .email-link p{
+    .footer-links-div .email-link div{
         font-size: 11px;
     }
 }
@@ -103,14 +108,10 @@ hr{
         line-height: 42px;
     }
 
-    .footer-links-div .email-link p{
-        font-size: 10px;
+    .footer-links-div .email-link div{
+        font-size: 12px;
     }
 
-    .footer-btn p{
-        font-size: 14px;
-        line-height: 20px;
-    }
 
     .footer-below{
         flex-direction: column;
@@ -124,7 +125,11 @@ hr{
         line-height: 38px;
     }
 
-    .footer-links-div .email-link p{
-        font-size: 9px;
+    .footer-links-div p{
+        font-size: 13px;
+    }
+
+    .footer-links-div .email-link div{
+        font-size: 13px;
     }
 }

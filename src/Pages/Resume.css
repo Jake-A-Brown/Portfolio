@@ -1,27 +1,127 @@
-.resume-div{
+/* Resume.css */
+
+.resume-div {
     display: flex;
-    flex-direction:column;
-    align-items: center;
+    flex-direction: column;
     width: 100%;
-    background-color:#EEEEEE;
-    color:charcoal;
-    padding: 0;
+    background-color: #EEEEEE;
+    color: charcoal;
+    padding: 20px;
     text-overflow: ellipsis;
     height: auto;
-}
-
-.resume-email-link{
-    width: auto;
-} 
-
-
-/*
-responsiveness added here
-*/
-@media screen and (max-width: 768px){
-    
-    .resume-div{
-        font-size:x-small;
+    font-family: Arial, sans-serif;
+  }
+  
+  .resume-heading {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .resume-address {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .resume-contact {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .resume-section {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .resume-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .resume-skills {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .resume-job-title {
+    font-size: 20px;
+    margin-bottom: 5px;
+    display: flex; /* Added for alignment */
+    justify-content: flex-start; /* Align to the left */
+  }
+  
+  .resume-company {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 5px;
+  }
+  
+  .resume-date {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .resume-duties {
+    font-size: 14px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: left; /* Align to the left */
+  }
+  
+  .resume-education {
+    margin-top: 30px;
+  }
+  
+  .resume-school {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .resume-degree {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .resume-certificates {
+    font-size: 14px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .resume-gpa {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .resume-courses {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  /* Align Macs Speed Shop and Persevere */
+  .resume-job-title:nth-of-type(1)::before {
+    content: "Macs Speed Shop";
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .resume-job-title:nth-of-type(2)::before {
+    content: "Persevere";
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .resume-job-title::before {
+    display: block;
+    content: "";
+    margin-bottom: 5px;
+  }
+  
+  /* Responsiveness added here */
+  @media screen and (max-width: 768px) {
+    .resume-div {
+      font-size: x-small;
     }
-    
-}
+  }
+  

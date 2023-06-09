@@ -12,6 +12,8 @@
 .github{
     margin: 0px;
     color:#171515;
+    background-color: #EEEEEE;
+    border-radius: 100%;
 }
 
 .linkedin{
@@ -20,9 +22,9 @@
 }
 
 .linkedin:hover{
-    transform: scale(1.3);
+    transform: scale(1.5);
 }
 
 .github:hover{
-    transform:scale(1.3);
+    transform:scale(1.5);
 }

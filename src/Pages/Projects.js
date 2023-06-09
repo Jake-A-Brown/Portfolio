@@ -6,15 +6,39 @@ import { Link } from 'react-router-dom';
 const projectsData = [
   {
     id: 1,
-    name: 'Project 1',
-    description: 'This is the description of Project 1.',
-    demoLink: 'https://project1demo.com'
+    name: 'Goal Maker',
+    description: 'This is the description.',
+    demoLink: 'https://jake-a-brown.github.io/GoalMaker/'
   },
   {
     id: 2,
-    name: 'Project 2',
-    description: 'This is the description of Project 2.',
-    demoLink: 'https://project2demo.com'
+    name: 'Project 1',
+    description: 'This is the description.',
+    demoLink: '#'
+  },
+  {
+    id: 3,
+    name: 'Project 3',
+    description: 'This is the description.',
+    demoLink: '#'
+  },
+  {
+    id: 4,
+    name: 'Project 4',
+    description: 'This is the description.',
+    demoLink: '#'
+  },
+  {
+    id: 5,
+    name: 'Project 5',
+    description: 'This is the description.',
+    demoLink: '#'
+  },
+  {
+    id: 6,
+    name: 'Project 6',
+    description: 'This is the description.',
+    demoLink: '#'
   },
   // Add more projects as needed
 ];
@@ -29,12 +53,12 @@ const Projects = () => {
             <h3>{project.name}</h3>
             <p>{project.description}</p>
             <a href={project.demoLink} target='_blank' rel='noopener noreferrer'>
-              Demo
+              Demo Link
             </a>
           </div>
         ))}
       </div>
-      <Link to='/'>Go Back</Link>
+      <Link to='/' className='project-goback'>Go Back</Link>
     </div>
   );
 };
