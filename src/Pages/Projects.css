@@ -5,10 +5,12 @@
 
 .projects-container {
   display: flex;
+  height: 100vh;
   flex-direction: column;
   align-items: center;
   padding: 20px;
   background-color: #EEEEEE;
+  justify-content: center;
   flex-grow: 1;
 }
 
@@ -24,13 +26,30 @@
 }
 
 .project-card {
-  border: 1px solid #ccc;
   padding: 20px;
   text-align: center;
-  background-color: cadetblue;
+  background: linear-gradient(-220deg, #b66cf6, #f5f096, #8aefe7);
+  animation: gradient-animation 20s infinite;
+  background-size: 300% 300%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  border: none;
 }
 
 .project-card a{
   color: blue;
   text-decoration: underline;
+}
+
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }

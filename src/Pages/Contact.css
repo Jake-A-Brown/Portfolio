@@ -1,5 +1,6 @@
 .contact-div {
   display: flex;
+  height: 100vh;
   flex-direction: row; /* Set flex-direction to row */
   justify-content: space-around;
   align-items: center;

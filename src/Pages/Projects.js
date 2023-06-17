@@ -7,19 +7,22 @@ const projectsData = [
   {
     id: 1,
     name: 'Goal Maker',
-    description: 'This is the description.',
-    demoLink: 'https://jake-a-brown.github.io/GoalMaker/'
+    description: 'This will be an application that will easily keep track and'+
+    'organize your goals for your future to make for yourself.',
+    demoLink: 'https://jake-a-brown.github.io/GoalMaker/',
+    image:''
   },
   {
     id: 2,
-    name: 'Project 1',
+    name: 'GitHub Profile Finder',
     description: 'This is the description.',
     demoLink: '#'
   },
   {
     id: 3,
-    name: 'Project 3',
-    description: 'This is the description.',
+    name: 'Small business site',
+    description: 'In Progress and excited for this small business site for a local pressure washing '+
+    'here in Greensboro. We want to advertise the services of the company and generate more revenue through exposure. ',
     demoLink: '#'
   },
   {
@@ -51,6 +54,7 @@ const Projects = () => {
         {projectsData.map((project) => (
           <div className='project-card' key={project.id}>
             <h3>{project.name}</h3>
+            <img src={project.image} alt={project.name} className='project-image'/>
             <p>{project.description}</p>
             <a href={project.demoLink} target='_blank' rel='noopener noreferrer'>
               Demo Link

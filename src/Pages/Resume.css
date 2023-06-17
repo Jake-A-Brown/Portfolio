@@ -8,7 +8,7 @@
     color: charcoal;
     padding: 20px;
     text-overflow: ellipsis;
-    height: auto;
+    height: fit-content;
     font-family: Arial, sans-serif;
   }
   

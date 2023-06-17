@@ -16,7 +16,7 @@ const TypingAnimation = ({ text }) => {
     }, 75); // Adjust the typing speed by changing the interval (in milliseconds)
   }, [text]);
 
-  return <p>{typedText}</p>;
+  return <div>{typedText}</div>;
 };
 
 export default TypingAnimation;

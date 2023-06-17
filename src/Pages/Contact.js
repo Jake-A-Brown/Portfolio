@@ -30,14 +30,14 @@ const Contact = () => {
           <h1>Dont be shy!</h1>
           <h2>Lets Collaborate! </h2>
           <h3>Email</h3>
-          <p className="contact-email">
+          <div className="contact-email">
             <FontAwesomeIcon
               className="email-icon"
               icon={faEnvelope}
               size="2x"
             />
             <Emaillink />
-          </p>
+          </div>
         </div>
         <div className="contact-item">
           <h3>Phone</h3>
@@ -49,9 +49,9 @@ const Contact = () => {
         </div>
         <div className="contact-item">
           <h3>Social Media</h3>
-          <p>
+          <div>
             <Socialmedia />
-          </p>
+          </div>
         </div>
       </div>
       <div ref={mapRef} className="map-container"></div>

@@ -20,7 +20,7 @@ const Home = () => {
       <div className="home-flex-container">
         <div className="home-left-section">
           <h1>Full-Stack Developer</h1>
-          <TypingAnimation text={content} />
+          <TypingAnimation className='type-animation' text={content} />
         </div>
         <div className="home-right-section">
           <Profilepicture />

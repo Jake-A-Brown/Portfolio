@@ -1,5 +1,6 @@
     .home-div {
         display: flex;
+        height:100vh;
         flex-direction: column;
         background-color:#EEEEEE;
         flex-grow: 1;
@@ -7,7 +8,9 @@
       
       .home-flex-container {
         display: flex;
-        margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 12%;
         flex-wrap: wrap;
       }
       
@@ -18,25 +21,28 @@
         width: 100%;
         max-width: 35%;
         text-align: left;
-        width: 35%;
+        width:35%;
         font-family: 'Vollkorn', serif;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
       }
 
       .home-left-section h1{
-        padding-top: 40px;
+        padding-top: 20px;
+        font-size: 40px;
       }
 
-      .home-left-section p{
+      .home-left-section div{
         padding-top: 10px;
+        font-size: 20px;
       }
-      
+
       .home-right-section {
         flex: 1;
         width: 100%;
       }
       
       .home-techstack-section {
-        margin-top: 20px;
+        margin-top: 15%;
         margin-bottom: 20px;
       }
 
@@ -65,8 +71,9 @@
   }
 
   .home-right-section .profile-picture{
-    max-width: 70%;
-    max-height: 70%;
+    width: 200px;
+    height: 100%;
+    
   }
 
 }
